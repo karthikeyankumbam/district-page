@@ -1,0 +1,36 @@
+/* Body background color */
+body {
+    background-color: #f0f0f0; /* You can change this color code */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container styles */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff; /* Background color for the container */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Dropdown styles */
+  .dropdown-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dropdown-container > div {
+    margin-right: 10px;
+  }
+  
+  /* Image styles */
+  #display-image {
+    margin-top: 20px;
+  }
+  

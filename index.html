@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Example</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="dropdown-container">
+      <div>
+        <label for="locationsDropdown">Manadal:</label>
+        <select id="locationsDropdown">
+          <option selected value="0">Please Select Mandal</option>
+          <option value="335">Chigurumamidi|చిగురుమామిడి</option>
+          <option value="336">Choppadandi|చొప్పదండి</option>
+          <option value="337">Ellandakunta|ఇల్లంతకుంట</option>
+          <option value="338">Gangadhara|గంగాధర</option>
+          <option value="339">Ganneruvaram|గన్నేరువరం</option>
+          <option value="340">Huzurabad|హుజురాబాద్</option>
+          <option value="341">Jammikunta|జమ్మికుంట</option>
+          <option value="342">Karimnagar|కరీంనగర్</option>
+          <option value="343">Karimnagar Rural|కరీంనగర్ రూరల్</option>
+          <option value="344">Kothapalli|కొత్తపల్లి</option>
+          <option value="345">Manakondur|మానకొండూర్</option>
+          <option value="346">Ramadugu|రామడుగు</option>
+          <option value="347">Shankarapatnam|శంకర పట్నం</option>
+          <option value="348">Thimmapur|తిమ్మా పూర్</option>
+          <option value="350">Veenavanka|వీణవంక</option>
+          <option value="349">V.Saidapur|వి.సైదాపూర్</option>
+        </select>
+      </div>
+      
+      <div>
+        <label for="subLocationsDropdown">Village:</label>
+        <select id="subLocationsDropdown">
+          <option selected value="0">Please Select Manadal First</option>
+        </select>
+      </div>
+    </div>
+
+    <div>
+      <img id="display-image" src="" alt="Selected Image">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
